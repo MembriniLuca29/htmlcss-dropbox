@@ -21,11 +21,14 @@ button{
     color: white;
     border-width: 0;
     padding: 0.6em 1.2em;
+    font-size: 1.1em;
 }
 
 button:hover{
     cursor: pointer;
 }
+
+section{padding-bottom: 5em;}
 
 
 /* HEADER------------------------------- */
@@ -190,7 +193,7 @@ h5>i{
     opacity: 0.5;
 }
 .benefit-container{
-    height: 15em;
+    height: 13em;
 }
 .benefit , .info{
     display: flex;
@@ -206,7 +209,7 @@ h5>i{
     padding-top: 2em ;
 }
 
-.try-free>.line{s
+.try-free>.line{
     padding-top: 2em ;
 }
 
@@ -222,4 +225,50 @@ padding: 2em 0;
     background-color: blue;
     width: 100%;
     text-align: center;
+}
+h5{
+    font-size: 1em;
+}
+
+/* conteinre inferiore section1 */
+
+.container-section1f{
+   
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+.head-container-section1f{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+
+.body-container-section1f{
+    display: flex;
+}
+.body-container-section1f>*{
+    padding: 1em 2em;
+  
+}
+
+.spacew{
+    padding-top: 2em;
+}
+
+div{font-size: 1.1em;}
+
+.left-1f{
+    width: 70%;
+}
+
+.left-1f>*{
+    padding: 1em 0;
+}
+
+.right-1f{
+    width: 30%;
+    padding-top:2em ;
 }
