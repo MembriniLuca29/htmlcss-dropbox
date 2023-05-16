@@ -41,6 +41,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    z-index: 2;
 }
 
 nav>div>a{
@@ -92,4 +93,124 @@ nav>div>a{
 .header-container>*{
     position: relative;
     top: 60px;
+}
+
+
+
+
+
+/* MAIN--------------------------------------------- */
+
+
+main{
+    padding: 9em 20% 2em;
+}
+
+
+
+/* section1------------------- */
+
+
+/* title */
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+
+/* selezione fatturazione */
+fieldset{
+    border-width: 0;
+    padding-bottom: 3em;
+}
+
+fieldset>label{
+    padding: 0 2em;
+}
+
+/* colonne */
+
+
+.column-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.one-column{
+    width: 30%;
+    border: 1px solid grey;
+}
+
+.fatturation-type{
+    padding: 0.4em 0;
+    text-align: center;
+    font-weight: small;
+    border-bottom: 1px solid grey;
+}
+
+.column-data{
+    padding: 2em 2em;
+}
+
+.column-data>h4{
+    font-size: 1.5em;
+    
+}
+
+.column-data>h5{
+    padding-bottom: 0;
+}
+
+.column-data>h6{
+   opacity: 0.5;
+    font-size: 1em;
+    padding-bottom: 2em;
+    
+}
+
+.column-data>*{
+    line-height: 2em;
+    padding-bottom: 1em;
+    font-size: 0.8em;
+}
+
+.column-data>.space{
+    padding-bottom: 3em;
+}
+
+.column-data>p{
+    padding-top: 1em;
+}
+
+.normal-link{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.info , .info2{
+    display: flex;
+}
+
+.info>div, .info2>div{
+    padding-right: 0.5em;
+}
+
+.line{
+    width: 25%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.line+h5{
+    padding-top: 3em;
+}
+
+.fa-check{
+    color: blue;
+}
+
+h5>i{
+    padding-right: 0.5em;
 }
