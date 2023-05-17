@@ -152,6 +152,7 @@ fieldset>label{
     text-align: center;
     font-weight: small;
     border-bottom: 1px solid grey;
+    font-size: 0.8em;
 }
 
 
@@ -179,6 +180,7 @@ fieldset>label{
 
 h5>i{
     padding-right: 0.2em;
+    font-size: 0.8em;
 }
 
 .column-data>*{
@@ -194,12 +196,12 @@ h5>i{
     opacity: 0.5;
 }
 .benefit-container{
-    height: 13em;
+    height: 14em;
 }
 .benefit , .info{
     display: flex;
     padding: 0.6em 0;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .icon-padding{ 
@@ -259,7 +261,6 @@ h5{
     padding-top: 2em;
 }
 
-div{font-size: 1.1em;}
 
 .left-1f{
     width: 70%;
@@ -451,7 +452,7 @@ display: flex;
 /* section 4 seconda parte */
 
 .bigcontainer+.bigcontainer{
-    height: calc(100vh / 6);
+    height: calc(100vh / 3);
 }
 
 .assetcontent{
@@ -462,8 +463,7 @@ display: flex;
 }
 .assetcontentdiv1{
     max-width: 50%;
-    display: flex;
-    align-items: center;
+    padding-top: 12vh;
 }
 .assetcontentdiv1>h2{
     font-size: 2em;
@@ -473,8 +473,7 @@ display: flex;
 
 .assetcontentdiv2{
     max-width: 50%;
-    display: flex;
-    align-items: center;
+    padding-top: 12vh;
 }
 
 .white-botton2{
@@ -499,6 +498,62 @@ display: flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em 0 0;
-    height: 4em;
+    padding: 0 3em 0 0;
+    height: 6em;
+    font-weight: bold;
+}
+
+/* Footer */
+.f-section{
+    padding-bottom: 0;
+}
+.fbox{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    padding: 3em  20% 0 20%;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-column>h5{
+padding-bottom: 2em;
+font-weight:bold;
+font-size: 1.5em;
+}
+.footer-column>a{
+    color: white;
+    padding: 0.6em 0;
+    
+}
+
+.end-page{
+    background-color: black;
+    width: 10%0;
+    
+    padding: 4em 0;
+    padding-left: 20%;
+}
+
+.end-page>div{
+    width: 10%;
+    border-top: 1px solid white ;
+}
+
+.lenguage{
+    padding: 3em 0 0 0;
+    color: gray;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.white-botton3{
+    color: grey;
+    background-color: transparent;
+    padding:0.2em 0 0 0.1em;
 }
