@@ -68,7 +68,7 @@ nav>div>a{
 }
 
 .header-descrition{
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     height:calc(100%- 6em);
@@ -85,7 +85,7 @@ nav>div>a{
 }
 
 .header-container>img{
-    width: 60%;
+    width: 70%;
 }
 
 
@@ -105,9 +105,11 @@ nav>div>a{
 /* MAIN--------------------------------------------- */
 
 
-main{
+main>*:not(.bigcontainer){
     padding: 9em 20% 2em;
 }
+
+
 
 
 
@@ -138,7 +140,6 @@ fieldset>label{
 .column-container{
     display: flex;
     justify-content: space-between;
-   
 }
 
 .one-column{
@@ -271,4 +272,160 @@ div{font-size: 1.1em;}
 .right-1f{
     width: 30%;
     padding-top:2em ;
+}
+
+
+
+
+/* SECTION 2 */
+
+
+.section2-container{
+    width: 100%;
+    display: flex;
+}
+
+
+.section2-img{
+    width: 60%;
+
+}
+
+.section2-img>img{
+    width: 100%;
+}
+
+
+.section2-text{
+    width: 40%;
+    padding: 2em 4em;
+}
+
+
+.section2-text>h3{
+  padding: 2em  0;
+}
+
+.section2-text>p{
+    padding: 0  0  4em 0;
+  }
+
+  .white-botton{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+
+
+  /* SECTION 3-------------------- */
+
+
+  h2{
+    font-size: 3em;
+  }
+
+
+  .section3-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+  }
+
+  .section3-onecolumn{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .section3-onecolumn>*{
+    padding: 1vh;
+   
+  }
+
+  .section3-onecolumn>img{
+    width: 80%;
+  }
+   
+.section3-onecolumn>h3{
+    font-size: 1.4em
+}
+
+/* section 4----------- */
+
+.half-whidth{
+    max-width: 60%;
+}
+ #section4-text{
+    padding-bottom: 9em;
+ }
+.bigcontainer{ 
+    width: 100vw;
+}
+
+.bigcontainer>div{
+display: flex;
+}
+
+.boxfor4{
+    width: calc( 100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxzone{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    height: calc(100vw / 6);
+}
+
+.boxzone>img{
+    width: 50%;
+    filter: invert(100%);
+}
+
+.single-box{
+    width: calc( 100vw / 3);
+    height: calc(100vw / 3);
+    background-color: #F5F5F5 ;
+}
+
+
+/* VARI BACKGROUND */
+
+
+.green-background{
+    background-color: #A2D39B;
+    border: 0.8em solid #D1E9CD;
+}
+
+.purple-bakcground{
+    background-color: #61082B;
+}
+
+.blu-background{
+    background-color: #0093CE;
+}
+
+.easyred-background{
+    background-color: #FF1C1C;
+}
+
+.red-background{
+    background-color: #D5001F;
+}
+
+.easygrey-background{
+    background-color: #B4D0E7;
+}
+
+.bludark-background{
+    background-color: #0D2481;
+}
+
+.yellow-background{
+    background-color: #FFD830;
 }
