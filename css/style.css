@@ -358,9 +358,11 @@ h5{
 .half-whidth{
     max-width: 60%;
 }
+
  #section4-text{
     padding-bottom: 9em;
  }
+
 .bigcontainer{ 
     
     padding-bottom: 0;
@@ -406,15 +408,16 @@ display: flex;
 .single-box>p{
     padding: 0 2em 3em 2em;
 }
+
 .line-space{
     width: 20%;
     margin: 0 2em;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 2em;
 }
+
+
 /* VARI BACKGROUND */
-
-
 .green-background{
     background-color: #A2D39B;
     border: 0.8em solid #D1E9CD;
@@ -480,7 +483,14 @@ display: flex;
     color: black;
     background-color: white;
 }
+.white-botton2:hover{
+   background-color: whitesmoke;
+}
 
+.relative{
+    position: relative;
+    right: 15px;
+}
 .margin-top{
     margin-top: 3em ;
 }
@@ -502,6 +512,7 @@ display: flex;
     height: 6em;
     font-weight: bold;
 }
+
 
 /* Footer */
 .f-section{
